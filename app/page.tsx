@@ -4,9 +4,9 @@ import { Contact } from '@/components/Contact'
 import { DoctorProfile } from '@/components/DoctorProfile'
 import { Video } from '@/components/Video'
 import { AboutDoctor } from '@/components/AboutDoctor'
-import { Services&Conditions } from '@/components/Services&Conditions'
+import { ServicesConditions } from '@/components/ServicesConditions'
 import { TestimonialCarousel } from '@/components/TestimonialCarousel'
-import { Prices&Packages } from '@/components/Prices&Packages'
+import { PricesPackages } from '@/components/PricesPackages'
 import { BookConsultation } from '@/components/BookConsultation'
 import { Insurances } from '@/components/Insurances'
 import { MessageDoctor } from '@/components/MessageDoctor'
@@ -20,9 +20,9 @@ export default function Home() {
       <DoctorProfile />
       <Video />
       <AboutDoctor />
-      <Services&Conditions />
+      <ServicesConditions />
       <TestimonialCarousel />
-      <Prices&Packages />
+      <PricesPackages />
       <BookConsultation />
       <Insurances />
       <MessageDoctor />
