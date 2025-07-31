@@ -18,14 +18,14 @@ interface InsuranceQuestions {
   hours: string;
 }
 
-interface WidgetInsurancesProps {
+interface InsurancesProps {
   selectedInsurances?: InsuranceItem[];
   paymentOptions?: PaymentOption[];
   insuranceQuestions?: InsuranceQuestions;
   className?: string;
 }
 
-export const WidgetInsurances: React.FC<WidgetInsurancesProps> = ({
+export const Insurances: React.FC<InsurancesProps> = ({
   selectedInsurances = [
     { name: "Aetna", logo: "/Storefront/Doctor Widget/Insurances/aetna.svg" },
     { name: "Cigna", logo: "/Storefront/Doctor Widget/Insurances/cigna.svg" },

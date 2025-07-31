@@ -7,7 +7,7 @@ interface EducationItem {
   activity: string;
 }
 
-interface WidgetAboutDoctorProps {
+interface AboutDoctorProps {
   aboutText?: string;
   education?: EducationItem[];
   hospitals?: string[];
@@ -16,7 +16,7 @@ interface WidgetAboutDoctorProps {
   className?: string;
 }
 
-export const WidgetAboutDoctor: React.FC<WidgetAboutDoctorProps> = ({
+export const AboutDoctor: React.FC<AboutDoctorProps> = ({
   aboutText = "Dr. Bellamy Nicholas is a board-certified family medicine physician with over 10 years of experience in primary care. He specializes in preventive medicine, chronic disease management, and patient education.",
   education = [
     { college: "Harvard Medical School", activity: "Medical Degree" },

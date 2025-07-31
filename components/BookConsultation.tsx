@@ -2,7 +2,7 @@
 
 import React from 'react';
 
-interface WidgetBookConsultationProps {
+interface BookConsultationProps {
   title?: string;
   zoomText?: string;
   subheading?: string;
@@ -14,7 +14,7 @@ interface WidgetBookConsultationProps {
   className?: string;
 }
 
-export const WidgetBookConsultation: React.FC<WidgetBookConsultationProps> = ({
+export const BookConsultation: React.FC<BookConsultationProps> = ({
   title = "Book Consultation",
   zoomText = "zoom",
   subheading = "Ready to take the next step in your health journey?",

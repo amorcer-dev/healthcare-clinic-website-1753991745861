@@ -2,7 +2,7 @@
 
 import React from 'react';
 
-interface WidgetProfileProps {
+interface DoctorProfileProps {
   doctorName?: string;
   specialty?: string;
   patients?: string;
@@ -14,7 +14,7 @@ interface WidgetProfileProps {
   className?: string;
 }
 
-export const WidgetProfile: React.FC<WidgetProfileProps> = ({
+export const DoctorProfile: React.FC<DoctorProfileProps> = ({
   doctorName = "Dr. Bellamy Nicholas",
   specialty = "MD, Family Medicine",
   patients = "1000+",

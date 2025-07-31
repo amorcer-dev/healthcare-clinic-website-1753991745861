@@ -1,6 +1,6 @@
 import React from 'react';
 
-interface WidgetMessageDoctorProps {
+interface MessageDoctorProps {
   title?: string;
   subheading?: string;
   description?: string;
@@ -8,7 +8,7 @@ interface WidgetMessageDoctorProps {
   className?: string;
 }
 
-export const WidgetMessageDoctor: React.FC<WidgetMessageDoctorProps> = ({
+export const MessageDoctor: React.FC<MessageDoctorProps> = ({
   title = "Message Doctor",
   subheading = "Have a quick question?",
   description = "Send me a secure message about your health concerns, medication questions, or any other medical inquiries. I'll respond within 24 hours.",

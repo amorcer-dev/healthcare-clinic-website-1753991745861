@@ -2,14 +2,14 @@
 
 import React from 'react';
 
-interface WidgetVideoProps {
+interface VideoProps {
   title?: string;
   videoUrl?: string;
   onPlay?: () => void;
   className?: string;
 }
 
-export const WidgetVideo: React.FC<WidgetVideoProps> = ({
+export const Video: React.FC<VideoProps> = ({
   title = "Meet Dr. Bellamy",
   videoUrl,
   onPlay,

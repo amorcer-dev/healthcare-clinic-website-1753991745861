@@ -7,14 +7,14 @@ interface ServiceItem {
   icon: string;
 }
 
-interface WidgetServicesAndConditionsProps {
+interface ServicesConditionsProps {
   specializedServices?: ServiceItem[];
   conditions?: string[];
   onAskCondition?: () => void;
   className?: string;
 }
 
-export const WidgetServicesAndConditions: React.FC<WidgetServicesAndConditionsProps> = ({
+export const ServicesConditions: React.FC<ServicesConditionsProps> = ({
   specializedServices = [
     { name: "Cardiovascular Care", icon: "/Storefront/Doctor Widget/Services And Conditions/HeartMonitor.svg" },
     { name: "Preventive Medicine", icon: "/Storefront/Doctor Widget/Services And Conditions/MedBag.svg" },

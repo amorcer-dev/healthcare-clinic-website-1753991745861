@@ -11,7 +11,7 @@ interface Testimonial {
   rating: number;
 }
 
-interface WidgetTestimonialCarouselProps {
+interface TestimonialCarouselProps {
   testimonials?: Testimonial[];
   overallRating?: number;
   totalReviews?: number;
@@ -19,7 +19,7 @@ interface WidgetTestimonialCarouselProps {
   className?: string;
 }
 
-export const WidgetTestimonialCarousel: React.FC<WidgetTestimonialCarouselProps> = ({
+export const TestimonialCarousel: React.FC<TestimonialCarouselProps> = ({
   testimonials = [
     {
       quote: "Dr. Bellamy was incredibly thorough and caring. He took the time to explain everything clearly and made me feel comfortable throughout the entire process.",

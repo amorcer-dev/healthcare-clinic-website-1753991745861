@@ -13,13 +13,13 @@ interface PackageOffering {
   features: string[];
 }
 
-interface WidgetPricesAndPackagesProps {
+interface PricesPackagesProps {
   consultationPricing?: ConsultationPricing[];
   packages?: PackageOffering[];
   className?: string;
 }
 
-export const WidgetPricesAndPackages: React.FC<WidgetPricesAndPackagesProps> = ({
+export const PricesPackages: React.FC<PricesPackagesProps> = ({
   consultationPricing = [
     { name: "Initial Consultation", price: "$120" },
     { name: "Follow-Up Consultation", price: "$90" },
