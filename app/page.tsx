@@ -1,15 +1,15 @@
 import { Hero } from '@/components/Hero'
 import { Features } from '@/components/Features'
 import { Contact } from '@/components/Contact'
-import { DoctorProfile } from '@/components/DoctorProfile'
-import { Video } from '@/components/Video'
-import { AboutDoctor } from '@/components/AboutDoctor'
-import { ServicesConditions } from '@/components/ServicesConditions'
-import { TestimonialCarousel } from '@/components/TestimonialCarousel'
-import { PricesPackages } from '@/components/PricesPackages'
-import { BookConsultation } from '@/components/BookConsultation'
-import { Insurances } from '@/components/Insurances'
-import { MessageDoctor } from '@/components/MessageDoctor'
+import { WidgetProfile } from '@/components/WidgetProfile'
+import { WidgetVideo } from '@/components/WidgetVideo'
+import { WidgetAboutDoctor } from '@/components/WidgetAboutDoctor'
+import { WidgetServicesAndConditions } from '@/components/WidgetServicesAndConditions'
+import { WidgetTestimonialCarousel } from '@/components/WidgetTestimonialCarousel'
+import { WidgetPricesAndPackages } from '@/components/WidgetPricesAndPackages'
+import { WidgetBookConsultation } from '@/components/WidgetBookConsultation'
+import { WidgetInsurances } from '@/components/WidgetInsurances'
+import { WidgetMessageDoctor } from '@/components/WidgetMessageDoctor'
 
 export default function Home() {
   return (
@@ -17,15 +17,15 @@ export default function Home() {
       <Hero />
       <Features />
       <Contact />
-      <DoctorProfile />
-      <Video />
-      <AboutDoctor />
-      <ServicesConditions />
-      <TestimonialCarousel />
-      <PricesPackages />
-      <BookConsultation />
-      <Insurances />
-      <MessageDoctor />
+      <WidgetProfile />
+      <WidgetVideo />
+      <WidgetAboutDoctor />
+      <WidgetServicesAndConditions />
+      <WidgetTestimonialCarousel />
+      <WidgetPricesAndPackages />
+      <WidgetBookConsultation />
+      <WidgetInsurances />
+      <WidgetMessageDoctor />
     </main>
   )
 }
